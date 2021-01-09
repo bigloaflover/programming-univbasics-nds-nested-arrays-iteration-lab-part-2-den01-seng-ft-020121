@@ -3,7 +3,7 @@ min_in_nested_array = []
 count = 0 
  while count < src.length do 
   inner_count = 0 
-  smallest_integer_element = ()
+  smallest_integer_element = 100
   while inner_count < src[count].length do 
     if src[count][inner_count].ord < smallest_integer_element
       smallest_integer_element = src[count][inner_count]
