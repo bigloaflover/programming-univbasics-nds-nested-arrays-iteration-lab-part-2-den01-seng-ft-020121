@@ -4,8 +4,8 @@ count = 0
  while count < src.length do 
   inner_count = 0 
   smallest_integer_element = ()
-  while inner_count< src[count].length do 
-    if src[count][inner_count]. < smallest_integer_element
+  while inner_count < src[count].length do 
+    if src[count][inner_count].ord < smallest_integer_element
       smallest_integer_element = src[count][inner_count]
     end 
     inner_count += 1 
