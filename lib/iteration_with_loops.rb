@@ -5,7 +5,7 @@ count = 0
   inner_count = 0 
   smallest_integer_element = ()
   while inner_count< src[count].length do 
-    if src[count][inner_count].length < smallest_integer_element
+    if src[count][inner_count]. < smallest_integer_element
       smallest_integer_element = src[count][inner_count]
     end 
     inner_count += 1 
